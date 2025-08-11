@@ -63,6 +63,8 @@ linters:
               desc: Use github.com/jaegertracing/jaeger-idl/model/v1
             - pkg: github.com/jaegertracing/jaeger/internal/proto-gen/api_v2$
               desc: Use github.com/jaegertracing/jaeger-idl/proto-gen/api_v2
+    gocritic:
+      enable-all: true
     gosec:
       excludes:
         - G104
